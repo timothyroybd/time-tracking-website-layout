@@ -1,0 +1,126 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.profile-wrapper {
+  background-color: #1d204b;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+.profile-wrapper h1 {
+  font-size: 1.9rem;
+
+  font-weight: 300;
+  color: white;
+}
+.profile-wrapper img {
+  width: 70px;
+  border: 3px solid white;
+  margin: 25px 22px;
+  border-radius: 50px;
+}
+.profile-wrapper small {
+  display: block;
+}
+.small-text,
+.name {
+  padding-left: 22px;
+}
+.small-text {
+  margin: 5px 0 2px 0;
+  color: hsl(236, 100%, 87%);
+  font-weight: 100;
+}
+
+.profile {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 10px;
+  padding-bottom: 65px;
+}
+
+.time a {
+  color: hsl(246, 80%, 60%);
+  font-weight: 300;
+  font-size: 0.95rem;
+  padding: 10px 0;
+  display: block;
+}
+.time {
+  padding: 15px 22px;
+}
+
+/* Card */
+.card1 {
+  background-image: url(images/icon-work.svg);
+  background-color: hsl(15, 100%, 70%);
+}
+.card2 {
+  background-image: url(images/icon-play.svg);
+  background-color: hsl(195, 74%, 62%);
+}
+.card3 {
+  background-image: url(images/icon-study.svg);
+  background-color: hsl(348, 100%, 68%);
+}
+.card4 {
+  background-image: url(images/icon-exercise.svg);
+  background-color: hsl(145, 58%, 55%);
+}
+.card5 {
+  background-image: url(images/icon-social.svg);
+  background-color: hsl(264, 64%, 52%);
+}
+.card6 {
+  background-image: url(images/icon-self-care.svg);
+  background-color: hsl(43, 84%, 65%);
+}
+.card {
+  background-repeat: no-repeat;
+  background-position: 90% -9%;
+  background-size: 65px;
+  width: 200px;
+  padding-top: 37px;
+  border-radius: 10px;
+}
+.overlay {
+  background-color: #1d204b;
+  padding: 22px 25px;
+  border-radius: 10px;
+  color: white;
+}
+.overlay h2 {
+  font-weight: 400;
+  font-size: 0.97rem;
+  color: white;
+  padding-bottom: 22px;
+}
+.overlay p {
+  font-size: 3rem;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.overlay small {
+  color: hsl(236, 100%, 87%);
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.overlay img {
+  width: 15px;
+  height: 5px;
+  margin-top: 6px;
+}
